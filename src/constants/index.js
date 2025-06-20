@@ -22,11 +22,9 @@ import {
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
-  microverse,
 } from '../assets';
 
 export const navLinks = [
@@ -128,7 +126,7 @@ const experiences = [
     company_name: 'Cover Hunt',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2023 - Feb 2024',
+    date: 'Aug 2021 - Feb 2022',
   },
   // {
   //   title: 'Mentor (Volunteer)',
@@ -138,18 +136,18 @@ const experiences = [
   //   date: 'Mar 2022 - May 2022',
   // },
   {
-    title: 'Junior Software Engineer',
+    title: 'Expert in Front-end',
     company_name: 'Kelhel',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2024 - Oct 2024',
+    date: 'Feb 2022 - Jan 2024',
   },
   {
     title: 'Full Stack Developer',
     company_name: 'Diversity Cyber Council',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Oct 2024 - Present',
+    date: 'Apr 2024 - Feb 2025',
   },
 ];
 
