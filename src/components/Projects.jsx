@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { github, pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
+import PropTypes from 'prop-types';
 
 const ProjectCard = ({
   id,
@@ -107,6 +108,18 @@ const ProjectCard = ({
       )}
     </motion.div>
   );
+};
+
+ProjectCard.propTypes = {
+  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  repo: PropTypes.string.isRequired,
+  demo: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
+  active: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 const Projects = () => {
