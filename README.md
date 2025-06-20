@@ -81,11 +81,10 @@ npm run preview
 
 ## Authors
 
-👤 **namelessuille Ndunda**
+👤 **nameless**
 
-- GitHub: [@namelessdeff](https://github.com/namelessdeff)
-- Twitter: [@namelessuillendunda](https://twitter.com/namelessuillendunda)
-- LinkedIn: [namelessuille Ndunda](https://www.linkedin.com/in/namelessuille-ndunda-b13a95107/)
+- GitHub: [@nameless](https://github.com/nameless-web-master)
+- Gmail: [@nameless20001027@gmail.com](nameless20001027@gmail.com)
 
 ## Feedback and Contributions
 
