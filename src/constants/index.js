@@ -25,6 +25,8 @@ import {
   coverhunt,
   dcc,
   kelhel,
+  buildMaster,
+  monitoring
 } from '../assets';
 
 export const navLinks = [
@@ -152,51 +154,51 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/nameless-web-master/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/nameless-web-master/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
+  // {
+  //   id: 'project-1',
+  //   name: 'KomiKult',
+  //   description: 'A comic characters list app that displays Marvel characters.',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'mongodb',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: komikult,
+  //   repo: 'https://github.com/nameless-web-master/KomiKult',
+  //   demo: 'https://shaqdeff.github.io/KomiKult/',
+  // },
+  // {
+  //   id: 'project-2',
+  //   name: 'Leaderboard',
+  //   description:
+  //     'A leaderboard list app that displays scores submitted by different players.',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'restapi',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'scss',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: leaderboard,
+  //   repo: 'https://github.com/nameless-web-master/Leaderboard',
+  //   demo: 'https://shaqdeff.github.io/Leaderboard/',
+  // },
   {
     id: 'project-3',
     name: 'Math Magicians',
@@ -263,6 +265,52 @@ const projects = [
     image: nyeusi,
     repo: 'https://github.com/nameless-web-master/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+  },
+  {
+    id: 'project-6',
+    name: 'Build Master',
+    description:
+      'This is a demo Next.js Landing page for Build Master',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: buildMaster,
+    repo: 'https://github.com/nameless-web-master/Build-Master',
+    demo: 'https://next-landing-build.netlify.app/',
+  },
+  {
+    id: 'project-7',
+    name: 'Monitoring',
+    description:
+      'This is a demo Next.js and Tailwind CSS for the Monitoring.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: monitoring,
+    repo: 'https://github.com/nameless-web-master/nextjs-landing-page',
+    demo: 'https://next-tailwind-landing.netlify.app/',
   },
 ];
 

@@ -46,8 +46,12 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import buildMaster from './projects/Buil-Master.png';
+import monitoring from './projects/monitoring.png';
 
 export {
+  buildMaster,
+  monitoring,
   bwmap,
   nairobi,
   whiteabstract,
