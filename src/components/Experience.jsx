@@ -31,11 +31,13 @@ const ExperienceCard = ({ experience }) => (
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className="flex justify-center items-center w-full h-full">
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
-        />
+        {
+          experience.icon === "" ? "⭐" : <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className="w-[60%] h-[60%] object-contain"
+          />
+        }
       </div>
     }>
     <div>
@@ -56,7 +58,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          {`What I've done so far`}
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
           Work Experience.

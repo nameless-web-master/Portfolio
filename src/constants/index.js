@@ -123,33 +123,33 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
   // {
-  //   title: 'Mentor (Volunteer)',
-  //   company_name: 'Microverse',
-  //   icon: microverse,
+  //   title: 'Front-End Developer',
+  //   company_name: 'Cover Hunt',
+  //   icon: coverhunt,
   //   iconBg: '#333333',
-  //   date: 'Mar 2022 - May 2022',
+  //   date: 'Aug 2021 - Feb 2022',
   // },
   {
-    title: 'Expert in Front-end',
+    title: 'Full-Stack Project Contributor',
+    company_name: 'Open Source for Good Remote Project',
+    icon: '',
+    iconBg: '#333333',
+    date: 'Mar 2021 - Oct 2021',
+  },
+  {
+    title: 'Front-end developer',
     company_name: 'Kelhel',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'Feb 2022 - Jan 2024',
+    date: 'Apr 2022 - Jun 2024',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    company_name: 'Cover Hunt',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'Apr 2024 - Feb 2025',
+    date: 'Dec 2024 - May 2025',
   },
 ];
 
