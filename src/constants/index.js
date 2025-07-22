@@ -26,7 +26,8 @@ import {
   dcc,
   kelhel,
   buildMaster,
-  monitoring
+  monitoring,
+  SMS
 } from '../assets';
 
 export const navLinks = [
@@ -200,28 +201,6 @@ const projects = [
   //   demo: 'https://shaqdeff.github.io/Leaderboard/',
   // },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/nameless-web-master/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
     id: 'project-4',
     name: 'Movie Metro',
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
@@ -311,6 +290,28 @@ const projects = [
     image: monitoring,
     repo: 'https://github.com/nameless-web-master/nextjs-landing-page',
     demo: 'https://next-tailwind-landing.netlify.app/',
+  },
+  {
+    id: 'project-8',
+    name: 'University Management System',
+    description: 'This is a single-page application for managing university courses and students.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: math,
+    repo: 'https://github.com/nameless-web-master/School-Management',
+    demo: 'https://nameless-school-management.netlify.app/',
   },
 ];
 

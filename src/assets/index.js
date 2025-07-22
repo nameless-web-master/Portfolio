@@ -48,8 +48,10 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import buildMaster from './projects/Buil-Master.png';
 import monitoring from './projects/monitoring.png';
+import SMS from './projects/SMS.png';
 
 export {
+  SMS,
   buildMaster,
   monitoring,
   bwmap,
