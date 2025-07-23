@@ -293,7 +293,7 @@ const projects = [
   },
   {
     id: 'project-8',
-    name: 'University Management System',
+    name: 'Management System',
     description: 'This is a single-page application for managing university courses and students.',
     tags: [
       {
