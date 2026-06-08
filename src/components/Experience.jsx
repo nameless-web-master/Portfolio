@@ -70,7 +70,7 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             contentStyle={{
               background: '#eaeaec',
               color: '#292929',
@@ -133,7 +133,7 @@ const Experience = () => {
                 w-[23px] h-[23px] object-contain"
               />
             </button>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </>
